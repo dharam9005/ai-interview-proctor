@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interview Proctor</title>
+</head>
+<body>
+    <h1>🤖 AI Interview Proctor System</h1>
+
+    <h2>Step 1: Upload Resume</h2>
+    <input type="file" id="resumeFile" />
+    <button onclick="uploadResume()">Upload & Analyze Resume</button>
+
+    <h2>Step 2: Start AI Interview</h2>
+    <button onclick="startInterview()">Start Interview</button>
+
+    <h2>Live Camera Monitoring (Emotion Detection)</h2>
+    <video id="camera" autoplay width="500" style="border:2px solid black;"></video>
+
+    <video id="camera" autoplay width="500"></video>
+    <h3 id="emotionLabel">Current Emotion: Detecting...</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
